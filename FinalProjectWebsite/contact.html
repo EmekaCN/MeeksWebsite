@@ -1,0 +1,79 @@
+<!--------w-----------
+
+    Final Project
+    Name: Emeka Nwannemelu
+    Date: 4/20/2023
+    Description: My Portfolio Contact page 
+
+--------------------->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactPage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/MEEKS.png" alt="logo">
+        </div>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="containerContact">
+        <form method="post" id="Contactform">
+            <fieldset>
+                <legend>LET'S TALK</legend>
+                <div class="formfield">
+                    <label for="name" class="contact">Name:</label>
+                    <input type="text" id="name" name="name" maxlength="15" value="" autofocus="autofocus">
+                    <div class="name_error error" id="name_error">[Please enter your name]</div>
+                </div>
+                <hr>
+                <div class="formfield">
+                    <label for="phonenumber" class="contact">Phone Number:</label>
+                    <input type="number" id="phonenumber" name="phonenumber" placeholder="###  ###  ####">
+                    <div class="phone_error error" id="phone_error">[Please enter a valid phone number]</div>
+                </div>
+                <hr>
+                <div class="formfield">
+                    <label for="email"> Email:</label>
+                    <input type="text" name="email" id="email">
+                    <div class="email_error error" id="email_error">[Please enter a valid email]</div>
+                </div>
+                <hr>
+                <div>
+                    <label for="feedback">Questions:</label><br>
+                    <textarea id="feedback" name="feedback" rows="8" cols="50"></textarea>
+                </div>
+                <hr>
+                <div id="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <nav id="footbox">
+            <ul id="footernav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

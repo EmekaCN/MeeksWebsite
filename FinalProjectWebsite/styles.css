@@ -1,0 +1,198 @@
+/*<!--------w-----------
+
+    Final Project
+    Name: Emeka Nwannemelu
+    Date: 4/20/2023
+    Description: My Portfolio Contact page 
+
+--------------------->*/
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    margin-top: 30px;
+}
+header{
+    display: flex;
+    background-color: black;
+    justify-content: flex-end;
+}
+    header #logo{
+        flex: 1;
+    }
+    header #mainNav{
+        flex: 2;
+    }
+        header #mainNav ul{
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+        }
+        header #mainNav ul li a{
+            color: white;
+            float: left; 
+            text-align: center;
+            padding: 14px 20px; 
+            text-decoration: none; 
+        }
+        #mainNav ul li a:hover{
+            color: Blue;
+        }
+@media(max-width: 640px){
+    header #mainNav ul{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+}
+#container{
+    border: 3px solid white;
+    width: 1100px;
+    height: 1900px;
+    margin: 10px auto;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    display: flex;
+}
+
+    #formalPic{
+        width: 315px;
+        height: 420px;
+        border: 3px solid white;
+        margin-left: 230px;
+        margin-top: 40px;
+    }
+#servicehead{
+    margin-top: 160px;
+    margin-left: 170px;
+    font-size: 28px;
+    text-align: left;
+    display: flex;
+}
+#who{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+#text{
+    margin: auto 170px;
+}
+#working{
+    width: 325px;
+    height: 420px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    border: 3px solid white;
+}
+
+#containerContact{
+    border: 3px solid white;
+    width: 1100px;
+    height: 750px;
+    margin: 10px auto;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    display: flex;
+}
+form{
+    margin-top: 15%;
+    margin-left: 32%;
+}
+#buttons{
+    display: flex;
+    margin: 20px 5px 4px;
+    justify-content: space-between;
+}
+#footbox{
+    margin: auto 200px;
+    position: relative;
+    bottom: 100px;
+}
+#footernav{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid gold;
+    border-radius: 10px;
+}
+    #footernv li{
+        display: none;
+        list-style: none;
+    }
+        #footernav li a{
+            color: gold;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        #footernav li a:hover{
+            color: white;
+        }
+#what{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+#work{
+    border: 3px solid white;
+    margin-left: 385px;
+}
+#offer{
+    margin: auto;
+}
+    #offer p{
+        margin: 20px 100px;
+    }
+#containerServices{
+    border: 3px solid white;
+    width: 1000px;
+    height: 750px;
+    margin: 10px auto;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    display: flex;
+    padding-right: 15px;
+}
+    #containerServices legend{
+        font-size: 20px;
+    }
+    #containerServices fieldset{
+        margin-bottom: 150px;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+.price{
+    text-align: center;
+    font-size: 24px;
+}
+.contactme a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+.contactme a:hover{
+    color: gold;
+}
+#webdev{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: gold;
+}
+#me a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
